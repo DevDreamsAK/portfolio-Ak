@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Profile = () => {
   return (
-    <div className="border-b border-neutral-900 pb-16 lg:mb-16 bg-gradient-to-b from-gray-900 to-black text-white">
+    <div className="border-b border-neutral-900 pb-16 lg:mb-16 bg-gradient-to-b from-gray-900 to-black text-white rounded-xl overflow-hidden">
       <div className="flex flex-wrap">
         {/* Left Section */}
         <div className="w-full lg:w-1/2">
