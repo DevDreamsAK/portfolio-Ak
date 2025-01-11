@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiSpring } from "react-icons/si"; // Add SiSpring
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -61,6 +61,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl text-red-400" />
+        </motion.div>
+        <motion.div
+          variants={icnVar(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiSpring className="text-7xl text-green-700" /> {/* Added Spring Boot */}
         </motion.div>
       </div>
     </div>
