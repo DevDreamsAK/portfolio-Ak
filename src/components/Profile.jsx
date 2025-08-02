@@ -24,7 +24,7 @@ const Profile = () => {
               animate="visible"
               className="text-center lg:text-left pb-6 text-5xl font-bold tracking-tight lg:mt-16 lg:text-7xl"
             >
-              Hi, I'm <span className="text-blue-500">Akash Ahamed</span>
+              <span className="text-blue-500">Akash Ahamed</span>
             </motion.h1>
             <motion.span
               whileHover={{ scale: 1.1 }}
@@ -34,7 +34,7 @@ const Profile = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 bg-clip-text text-3xl tracking-wide text-transparent mb-6"
             >
-              Computer Science Undergraduate
+              BSc in Computer Science
             </motion.span>
             <motion.p
               variants={container(1)}

@@ -7,7 +7,7 @@ const Projects = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2, // Stagger animations for child elements
+        staggerChildren: 0.2,
       },
     },
   };
@@ -49,22 +49,35 @@ const Projects = () => {
               className="w-full lg:w-1/4"
               whileHover={{ rotate: 5, scale: 1.1 }}
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded-lg"
-              />
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  alt={project.title}
+                  className="mb-6 rounded-lg"
+                />
+              </a>
             </motion.div>
+
             {/* Project Details */}
             <div className="w-full max-w-xl lg:w-3/4">
-              <motion.h6
-                className="mb-2 text-lg font-semibold text-white"
-                whileHover={{ color: "#4F46E5" }}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {project.title}
-              </motion.h6>
+                <motion.h6
+                  className="mb-2 text-lg font-semibold text-white"
+                  whileHover={{ color: "#4F46E5" }}
+                >
+                  {project.title}
+                </motion.h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, techIndex) => (
