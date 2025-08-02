@@ -44,7 +44,7 @@ const Profile = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.a
+            {/* <motion.a
               href="/path/to/your/resume.pdf" // Replace with actual resume path
               download="Akash_Ahamed_Resume.pdf"
               whileHover={{
@@ -59,7 +59,7 @@ const Profile = () => {
               className="mt-6 rounded-full bg-blue-500 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:bg-blue-600"
             >
               Download Resume
-            </motion.a>
+            </motion.a> */}
           </div>
         </div>
 
