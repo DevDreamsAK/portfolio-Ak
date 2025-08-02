@@ -7,11 +7,11 @@ export const HERO_CONTENT = `I am a fresh graduate in Computer Science with a pa
                             I am eager to apply my skills in analyzing, interpreting, and presenting data to support decision-making, uncover trends, 
                             and drive business value through data-driven strategies.`;
 
-export const ABOUT_TEXT = `I am a dedicated and aspiring computer science graduate with a passion for cloud computing and innovative technology solutions.
-                            My academic journey has given me hands-on experience in programming, cloud platforms, and modern development practices. 
-                            I am eager to apply my skills to design and deploy scalable, user-friendly applications while continuously learning and embracing new challenges. 
-                            I thrive in collaborative environments and enjoy solving complex problems to deliver impactful solutions. Beyond academics, 
-                            I stay curious by exploring emerging technologies and contributing to meaningful projects that make a difference.`;
+export const ABOUT_TEXT = `I am a dedicated and aspiring Computer Science graduate with a strong passion for data analytics and innovative technology solutions. 
+                          My academic journey has equipped me with hands-on experience in programming, cloud platforms, and modern development practices. 
+                          I am eager to apply my analytical skills to uncover insights from data, build scalable and user-friendly applications, and support data-driven decision-making. 
+                          I thrive in collaborative environments and enjoy solving complex problems to deliver impactful solutions. Beyond academics, 
+                          I stay curious by exploring emerging technologies and contributing to meaningful projects that create real-world value.`;
 
 export const EDUCATION = [
   {
