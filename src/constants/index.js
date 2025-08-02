@@ -50,7 +50,7 @@ export const PROJECTS = [
     description:
       "Academic Individual Project for a travel website that allows users to search and book hotels, and activities.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "https://github.com/DevDreamsAK/Travel-Web", // <-- Add your actual link here
+    link: "https://aktravelsguide.vercel.app/", // <-- Add your actual link here
   },
 ];
 
