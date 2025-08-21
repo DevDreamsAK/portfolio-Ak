@@ -1,6 +1,7 @@
 import travel from "../assets/projects/travel.png";
 import portfolio from "../assets/projects/portfolio.png";
 import sales from "../assets/projects/sales.png";
+import retail from "../assets/projects/retail.png"
 
 export const HERO_CONTENT = `I am a fresh graduate in Computer Science with a passion for data analytics and turning raw data into meaningful insights. 
                             My academic journey has equipped me with a strong foundation in programming, statistics, and data visualization tools. 
@@ -28,6 +29,14 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Retail sales Data Analysis Dashboard",
+    image: retail,
+    description:
+      "This project analyzes retail sales data using Excel only.  .",
+    technologies: ["Excel"],
+    link: "https://github.com/DevDreamsAK/Excel_Dashboard.git", // <-- Add your actual link here
+  },
   {
     title: "Blinkit Sales Analysis",
     image: sales,
