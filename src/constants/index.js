@@ -1,7 +1,8 @@
 import travel from "../assets/projects/travel.png";
 import portfolio from "../assets/projects/portfolio.png";
 import sales from "../assets/projects/sales.png";
-import retail from "../assets/projects/retail.png"
+import retail from "../assets/projects/retail.png";
+import hr from '../assets/projects/HR.png';
 
 export const HERO_CONTENT = `I am a fresh graduate in Computer Science with a passion for data analytics and turning raw data into meaningful insights. 
                             My academic journey has equipped me with a strong foundation in programming, statistics, and data visualization tools. 
@@ -30,12 +31,20 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
+    title: "HR Dashboard | Tableau",
+    image: hr,
+    description:
+      "This project presents an interactive Tableau dashboard for HR data analysis, providing insights into workforce trends, employee demographics, and key HR metrics.",
+    technologies: ["Tableau", "EDA", "Teableau-Public"],
+    link: "https://public.tableau.com/app/profile/akash.ahamed/viz/HR_17561130829900/HRSummary", 
+  },
+  {
     title: "Retail sales Data Analysis Dashboard",
     image: retail,
     description:
       "This project analyzes retail sales data using Excel only.  .",
     technologies: ["Excel"],
-    link: "https://github.com/DevDreamsAK/Excel_Dashboard.git", // <-- Add your actual link here
+    link: "https://github.com/DevDreamsAK/Excel_Dashboard.git", 
   },
   {
     title: "Blinkit Sales Analysis",
@@ -43,7 +52,7 @@ export const PROJECTS = [
     description:
       "Conducted a comprehensive sales analysis on Blinkit data to uncover revenue trends, top-performing products, and city-wise sales insights using Python.",
     technologies: ["Python"],
-    link: "https://github.com/DevDreamsAK/BlinkitSalesAnalysis/blob/main/Blinkit_Analysis.ipynb", // <-- Add your actual link here
+    link: "https://github.com/DevDreamsAK/BlinkitSalesAnalysis/blob/main/Blinkit_Analysis.ipynb", 
   },
   {
     title: "Portfolio Website",
